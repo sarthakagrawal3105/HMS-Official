@@ -1,0 +1,233 @@
+*{
+    padding:0;
+    margin:0;
+    border:border box;
+}
+#maindiv{
+    height: 77px;
+    background-color: rgb(161, 200, 243);
+}
+header{
+    position:fixed;
+    top:0px;
+    z-index: 1;
+    
+}
+#header1{
+    background-color:rgb(3, 25, 67);
+    color:white;
+    text-align: end;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-top:5px;
+}
+#header2{
+    height: 70px;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid rgb(9, 9, 9);
+    
+}
+#header3{
+    position: relative;
+    bottom: 50px;
+    height: 77px;
+    width: 800px;
+    margin-left: 750px;
+}
+#home:hover{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+#about:hover{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 10px; 
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover #service {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+#contact:hover{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+#home{
+    color:black;
+    text-decoration: none;
+    font-size: larger;
+}
+#about, #service, #contact{
+    margin-left: 100px;
+    color:black;
+    text-decoration: none;
+    font-size: larger;
+}
+#register{
+    margin-left: 100px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+}
+#aboutimg{
+    max-width: 1535px ;
+    position:relative;
+    top: 0px;
+}
+#background{
+    background-image: url(aboutbg.png);
+    background-position: center;
+    min-height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bgname{
+    position:sticky;
+    top:125px;
+    left: 0px;
+    border-bottom-right-radius: 50%;
+    z-index: 1;
+    border-right: 5px solid black;
+    border-bottom: 2px solid black;
+}
+#aim{
+    height: 300px;
+    background-color: rgba(0, 0, 0,0.5);
+    position:relative;
+    bottom: 60px;
+    display: flex;
+    align-items: center;
+    
+}
+#vision{
+    height: 250px;
+    width: 400px;
+    background-color: rgba(254, 255, 255, 0.708);
+    position:relative;
+    left: 550px;
+    border: 5px solid rgb(4, 1, 79);
+    border-left: 1px solid rgb(1, 1, 6);
+    border-bottom: 1px solid rgb(1, 1, 6);
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+}
+#mission{
+    height: 250px;
+    width: 400px;
+    background-color: rgba(254, 255, 255, 0.708);
+    position:relative;
+    left: 650px;
+    border: 5px solid rgb(4, 1, 79);
+    border-left: 1px solid rgb(1, 1, 6);
+    border-bottom: 1px solid rgb(1, 1, 6);
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+#hvision{
+    font-size: x-large;
+    text-align: center;
+    color:rgb(4, 1, 79);
+    font-weight: 600;
+    position: relative;
+    top: 40px;
+    right: 60px;
+}
+#hmission{
+    font-size: x-large;
+    text-align: center;
+    color:rgb(4, 1, 79);
+    font-weight: 600;
+    position: relative;
+    top: 40px;
+    right: 60px;
+}
+#visioncontent, #missioncontent{
+    position:relative;
+    top:80px;
+    left:40px;
+    width: 320px;;
+}
+#hr2{
+    position:relative;
+    top: 350px;
+}
+#footer{
+    height: 60px;
+    background-color: rgb(8, 29, 69);
+}
+#fname{
+    font-size: x-large;
+    font-family:fantasy;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top:15px;
+    left: 15px;
+}
+.feedback{
+    color: lightblue;
+    font-size: larger;
+    position:relative;
+    left: 500px;
+    top: 12px;
+
+}
+#fbox{
+    font-size: medium;
+    margin-left: 50px;
+}
+#ss, #send{
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    left: 520px;
+    top: 10px;
+}
+#send{
+    background-color: #3c42f0;
+    color: white;
+}
